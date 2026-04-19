@@ -41,16 +41,13 @@ export default function SplineScene() {
         style={{ background: "#e63946" }}
       />
 
-      {/* football player — на мобиле справа внизу, меньше размером */}
-      <div className="absolute right-0 bottom-0 h-full flex items-end justify-end pointer-events-none">
+      {/* football player — только на десктопе */}
+      <div className="hidden md:flex absolute right-0 bottom-0 h-full items-end justify-end pointer-events-none">
         <img
           src={PLAYER_IMG}
           alt="Футболист"
-          className="h-[55%] md:h-[90%] max-h-[520px] object-contain object-bottom select-none"
-          style={{
-            mixBlendMode: "screen",
-            filter: "drop-shadow(0 0 30px rgba(59,130,246,0.5))",
-          }}
+          className="h-[90%] max-h-[520px] object-contain object-bottom select-none"
+          style={{ mixBlendMode: "screen", filter: "drop-shadow(0 0 30px rgba(59,130,246,0.5))" }}
         />
       </div>
     </div>

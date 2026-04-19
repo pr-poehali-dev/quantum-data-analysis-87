@@ -47,7 +47,7 @@ const Index = () => {
           <Header />
           <SplineScene />
           <HeroTextOverlay />
-          <RotatingTextAccent />
+          {/* <RotatingTextAccent /> */}
         </main>
 
         <section

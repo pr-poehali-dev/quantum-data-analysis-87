@@ -1,56 +1,59 @@
-import { Suspense, useState } from "react"
-import Spline from "@splinetool/react-spline"
+const PLAYER_IMG = "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/files/e14aa2c0-6132-4b73-9f58-9ce6dfa32a15.jpg"
 
 export default function SplineScene() {
-  const [isLoading, setIsLoading] = useState(true)
-  const [hasError, setHasError] = useState(false)
-
-  const handleLoad = () => {
-    console.log("Spline scene loaded successfully")
-    setIsLoading(false)
-    setHasError(false)
-  }
-
-  const handleError = (error: unknown) => {
-    console.log("Spline scene failed to load:", error)
-    setIsLoading(false)
-    setHasError(true)
-  }
-
   return (
-    <div className="absolute inset-0 w-full h-full bg-background">
-      {isLoading && (
-        <div className="absolute inset-0 w-full h-full flex items-center justify-center">
-          <div className="text-foreground text-center">
-            <div className="text-lg mb-2">Загрузка 3D сцены...</div>
-            <div className="text-sm opacity-70">Пожалуйста, подождите</div>
-          </div>
-        </div>
-      )}
+    <div className="absolute inset-0 w-full h-full overflow-hidden" style={{ background: "#0d1b3e" }}>
+      {/* dots pattern top-left */}
+      <div className="absolute top-6 left-6 grid grid-cols-5 gap-1.5 opacity-40">
+        {Array.from({ length: 25 }).map((_, i) => (
+          <div key={i} className="w-1 h-1 rounded-full bg-white" />
+        ))}
+      </div>
 
-      {hasError && (
-        <div className="absolute inset-0 w-full h-full flex items-center justify-center">
-          <div className="text-foreground text-center">
-            <div className="text-lg mb-2">3D сцена недоступна</div>
-            <div className="text-sm opacity-70">Не удалось загрузить 3D модель</div>
-          </div>
-        </div>
-      )}
+      {/* dots pattern bottom-right */}
+      <div className="absolute bottom-16 right-6 grid grid-cols-4 gap-1.5 opacity-30">
+        {Array.from({ length: 16 }).map((_, i) => (
+          <div key={i} className="w-1 h-1 rounded-full bg-white" />
+        ))}
+      </div>
 
-      {!hasError && (
-        <Suspense fallback={null}>
-          <Spline
-            scene="https://prod.spline.design/l8gr6AhxxCqDIdBx/scene.splinecode"
-            onLoad={handleLoad}
-            onError={handleError}
-            style={{
-              width: "100%",
-              height: "100%",
-              background: "transparent",
-            }}
-          />
-        </Suspense>
-      )}
+      {/* red circle top-right */}
+      <div
+        className="absolute -top-8 -right-8 w-28 h-28 rounded-full opacity-90"
+        style={{ background: "#e63946" }}
+      />
+
+      {/* blue glow circles behind player */}
+      <div
+        className="absolute right-16 top-1/2 -translate-y-1/2 w-64 h-64 rounded-full opacity-30 blur-2xl"
+        style={{ background: "#1d4ed8" }}
+      />
+      <div
+        className="absolute right-8 top-1/3 w-48 h-48 rounded-full opacity-20"
+        style={{ background: "#3b82f6", filter: "blur(30px)" }}
+      />
+
+      {/* blue decorative arc left */}
+      <div
+        className="absolute left-0 bottom-0 w-32 h-32 rounded-full opacity-60"
+        style={{ background: "transparent", border: "18px solid #1d4ed8", transform: "translate(-50%, 50%)" }}
+      />
+
+      {/* red small circle bottom-left */}
+      <div
+        className="absolute bottom-12 left-8 w-5 h-5 rounded-full"
+        style={{ background: "#e63946" }}
+      />
+
+      {/* football player image — right side */}
+      <div className="absolute right-0 bottom-0 h-full flex items-end justify-end pointer-events-none">
+        <img
+          src={PLAYER_IMG}
+          alt="Футболист"
+          className="h-[90%] max-h-[520px] object-contain object-bottom select-none"
+          style={{ filter: "drop-shadow(0 0 40px rgba(59,130,246,0.4))" }}
+        />
+      </div>
     </div>
   )
 }

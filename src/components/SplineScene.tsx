@@ -23,14 +23,10 @@ export default function SplineScene() {
         style={{ background: "#e63946" }}
       />
 
-      {/* blue glow circles behind player */}
+      {/* blue glow behind player */}
       <div
-        className="absolute right-16 top-1/2 -translate-y-1/2 w-64 h-64 rounded-full opacity-30 blur-2xl"
+        className="absolute right-0 md:right-16 top-1/2 -translate-y-1/2 w-48 md:w-64 h-48 md:h-64 rounded-full opacity-30 blur-2xl"
         style={{ background: "#1d4ed8" }}
-      />
-      <div
-        className="absolute right-8 top-1/3 w-48 h-48 rounded-full opacity-20"
-        style={{ background: "#3b82f6", filter: "blur(30px)" }}
       />
 
       {/* blue decorative arc left */}
@@ -45,13 +41,16 @@ export default function SplineScene() {
         style={{ background: "#e63946" }}
       />
 
-      {/* football player image — right side */}
+      {/* football player — на мобиле справа внизу, меньше размером */}
       <div className="absolute right-0 bottom-0 h-full flex items-end justify-end pointer-events-none">
         <img
           src={PLAYER_IMG}
           alt="Футболист"
-          className="h-[90%] max-h-[520px] object-contain object-bottom select-none"
-          style={{ filter: "drop-shadow(0 0 40px rgba(59,130,246,0.4))" }}
+          className="h-[55%] md:h-[90%] max-h-[520px] object-contain object-bottom select-none"
+          style={{
+            mixBlendMode: "screen",
+            filter: "drop-shadow(0 0 30px rgba(59,130,246,0.5))",
+          }}
         />
       </div>
     </div>

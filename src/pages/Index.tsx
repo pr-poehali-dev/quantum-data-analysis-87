@@ -57,17 +57,17 @@ const Index = () => {
 
             <div className="flex flex-col gap-2 max-w-5xl">
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Имя</span>
-                <span className="text-foreground font-mono text-sm">Макс</span>
+                <span className="text-accent font-mono text-sm">Ниша</span>
+                <span className="text-foreground font-mono text-sm">Спорт, киберспорт, букмекерство</span>
               </div>
               <div className="flex items-center gap-4">
-                <span className="text-accent font-mono text-sm">Вид</span>
-                <span className="text-foreground font-mono text-sm">Инопланетянин с планеты Флэпджек</span>
+                <span className="text-accent font-mono text-sm">Модель</span>
+                <span className="text-foreground font-mono text-sm">CPA / RevShare / Hybrid</span>
               </div>
               <div className="flex items-start gap-4">
-                <span className="text-accent font-mono text-sm">Характер</span>
+                <span className="text-accent font-mono text-sm">Условия</span>
                 <span className="text-foreground font-mono text-sm">
-                  Любопытный, гибкий, немного расслабленный - но острый, когда дело касается баз данных и организации информации.
+                  Топовые ставки за депозит, высокий RevShare, быстрые выплаты. Работаем с проверенными букмекерами с лицензией.
                 </span>
               </div>
             </div>

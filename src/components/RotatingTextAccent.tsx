@@ -1,7 +1,7 @@
 const CDN_BASE = "https://cdn.poehali.dev/templates/meet-jack"
 
 export default function RotatingTextAccent() {
-  const text = "-- Топ офферы! Заработай больше --- "
+  const text = "-- Топ букмекеры! Лучшие бонусы --- "
 
   return (
     <div className="absolute bottom-20 right-8 w-24 h-24 md:w-32 md:h-32">

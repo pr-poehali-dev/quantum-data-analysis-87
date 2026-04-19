@@ -10,12 +10,12 @@ export default function HeroTextOverlay() {
           paintOrder: "stroke fill",
         }}
       >
-        СТАВКА
+        СТАВКИ
       </h1>
       <p className="text-foreground font-mono text-sm md:text-base max-w-xs tracking-widest lg:text-base">
-        Лучшие офферы
+        Лучшие букмекеры
         <br />
-        букмекерских партнёрок
+        с топовыми бонусами
       </p>
     </div>
   )

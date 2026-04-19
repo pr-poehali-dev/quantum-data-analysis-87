@@ -16,17 +16,17 @@ export default function Footer() {
               className="text-foreground text-4xl md:text-5xl mb-8 leading-[3.5rem] md:leading-[4rem] font-semibold text-center md:text-left mt-0"
               style={{ fontFamily: "var(--font-montserrat)" }}
             >
-              Зарабатывай на спорте.
+              Ставь умнее. Побеждай чаще.
             </h2>
 
             <div className="space-y-4 text-foreground">
               <div className="flex items-start gap-3">
                 <span className="text-accent mt-1">*</span>
-                <p className="text-sm">Только проверенные букмекеры с высокими конверсиями и стабильными выплатами.</p>
+                <p className="text-sm">Только легальные букмекеры с лицензией ФНС — твои деньги в безопасности.</p>
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-accent mt-1">*</span>
-                <p className="text-sm">Подбираем оффер под твою аудиторию — максимальный доход с каждого лида.</p>
+                <p className="text-sm">Собрали лучшие приветственные бонусы — выбирай и начинай с выгодой.</p>
               </div>
             </div>
           </div>
@@ -58,13 +58,13 @@ export default function Footer() {
 
         <div id="contact" className="w-full px-6 py-16 flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 md:gap-0 border-t border-border mt-16">
           <div className="flex flex-col md:flex-row gap-2 text-center md:text-left">
-            <h2 className="text-foreground font-mono text-xl font-bold">Хочешь топовый оффер?</h2>
-            <p className="text-foreground font-mono font-normal text-base">Напиши нам — подберём лучшие условия</p>
+            <h2 className="text-foreground font-mono text-xl font-bold">Не знаешь с чего начать?</h2>
+            <p className="text-foreground font-mono font-normal text-base">Смотри все букмекеры и выбирай лучшее</p>
           </div>
 
-          <a href="mailto:hello@example.com">
+          <a href="#bookmakers">
             <button className="bg-primary text-primary-foreground px-8 py-4 rounded-full font-semibold text-lg whitespace-nowrap hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--primary)/0.5)] transition-all duration-300 font-mono flex items-center gap-2">
-              Получить оффер
+              Выбрать букмекера
               <svg
                 width="20"
                 height="20"

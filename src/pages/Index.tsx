@@ -51,6 +51,7 @@ const Index = () => {
         </main>
 
         <section
+          id="bookmakers"
           className="relative rounded-4xl py-10 mx-4 md:mx-0 w-[calc(100%-2rem)] md:w-full bg-card border border-solid border-border pb-16"
           style={{
             backgroundImage: `

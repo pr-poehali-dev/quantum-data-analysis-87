@@ -35,10 +35,10 @@ const bookmakers = [
   {
     name: "Бетсити",
     bonusType: "Фрибет",
-    bonusAmount: "25 000 ₽",
-    title: "Бетсити: Фрибет до 25 000 рублей при регистрации",
-    color: "#1A2B8C",
-    banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/files/5fa60c07-aa3d-426d-8ecc-10d06a9ae0f4.jpg",
+    bonusAmount: "2 000 ₽",
+    title: "Бетсити: Фрибет 2000 рублей за первую ставку",
+    color: "#00BFFF",
+    banner: "https://cdn.poehali.dev/files/349e2c15-2839-4b92-84f0-d0a39a29f74f.png",
     href: "#",
   },
 ]

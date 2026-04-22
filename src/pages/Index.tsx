@@ -40,6 +40,7 @@ const bookmakers = [
     color: "#00BFFF",
     banner: "https://cdn.poehali.dev/files/349e2c15-2839-4b92-84f0-d0a39a29f74f.png",
     href: "#",
+    bannerPosition: "object-left-top",
   },
 ]
 
@@ -88,7 +89,7 @@ const Index = () => {
                     <img
                       src={bm.banner}
                       alt={bm.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${"bannerPosition" in bm ? bm.bannerPosition : "object-center"}`}
                     />
                   </div>
 

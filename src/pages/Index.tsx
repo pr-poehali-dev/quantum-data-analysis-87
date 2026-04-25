@@ -39,7 +39,7 @@ const bookmakers = [
     title: "Бетсити: Фрибет 2000 рублей за первую ставку",
     color: "#00BFFF",
     banner: "https://cdn.poehali.dev/files/349e2c15-2839-4b92-84f0-d0a39a29f74f.png",
-    href: "#",
+    href: "https://r.dalead.pro/ru-betcity-freebet2000_1/?flow=11482&src=3",
     bannerPosition: "object-left-top",
   },
 ]

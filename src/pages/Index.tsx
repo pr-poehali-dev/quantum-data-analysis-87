@@ -20,7 +20,7 @@ const bookmakers = [
     bonusAmount: "5×1000 ₽",
     title: "Pari: Фрибет 5×1000 рублей новым игрокам",
     color: "#00D4B4",
-    banner: "https://cdn.poehali.dev/files/c4f7400e-506a-4982-95c7-239170f39cac.png",
+    banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/bucket/fb05b910-31ac-4798-ace7-7099b0b890c9.png",
     href: "https://r.dalead.pro/ru-pari-1000_1/?flow=11467&src=10",
   },
   {
@@ -29,7 +29,7 @@ const bookmakers = [
     bonusAmount: "3 000 ₽",
     title: "Winline: Фрибет 3000 рублей новым игрокам",
     color: "#FF6B00",
-    banner: "https://cdn.poehali.dev/files/e3ebebad-6f5d-468b-86ed-8ac8a0a2969c.png",
+    banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/bucket/3b45661c-495b-47bc-a74e-dd41257ab15a.jpg",
     href: "https://r.dalead.pro/ru-winline-registration_1/?flow=11468&src=36",
   },
   {

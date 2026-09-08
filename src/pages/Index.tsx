@@ -30,7 +30,7 @@ const bookmakers = [
     title: "Winline: Фрибет 10000 рублей новым игрокам",
     color: "#FF6B00",
     banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/bucket/3b45661c-495b-47bc-a74e-dd41257ab15a.jpg",
-    href: "https://r.dalead.pro/ru-winline-registration_1/?flow=11468&src=36",
+    href: "https://r.dalead.pro/go12190",
   },
   {
     name: "Бетсити",

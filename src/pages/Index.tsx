@@ -21,7 +21,7 @@ const bookmakers = [
     title: "Pari: Фрибет 5×1000 рублей новым игрокам",
     color: "#00D4B4",
     banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/bucket/fb05b910-31ac-4798-ace7-7099b0b890c9.png",
-    href: "https://r.dalead.pro/ru-pari-1000_1/?flow=11467&src=10",
+    href: "https://r.dalead.pro/go12674",
   },
   {
     name: "Winline",

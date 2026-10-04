@@ -33,14 +33,13 @@ const bookmakers = [
     href: "https://r.dalead.pro/go12190",
   },
   {
-    name: "Бетсити",
+    name: "BetBoom",
     bonusType: "Фрибет",
-    bonusAmount: "2 000 ₽",
-    title: "Бетсити: Фрибет 2000 рублей за первую ставку",
-    color: "#00BFFF",
-    banner: "https://cdn.poehali.dev/files/349e2c15-2839-4b92-84f0-d0a39a29f74f.png",
-    href: "https://r.dalead.pro/ru-betcity-freebet2000_1/?flow=11482&src=3",
-    bannerPosition: "object-left-top",
+    bonusAmount: "до 10 000 ₽",
+    title: "BetBoom: Фрибет до 10 000 рублей новым клиентам",
+    color: "#F5E600",
+    banner: "https://cdn.poehali.dev/projects/4992eb3c-396a-42ca-8289-4bea7d6247f6/bucket/51b0b60d-49a7-4a64-96df-971be3762ce4.png",
+    href: "https://r.dalead.pro/go12675",
   },
 ]
 
